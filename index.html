@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amos Williams | Private Advisory Office</title>
+  <meta name="description" content="Private Advisory Office of Amos Williams." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="bg-glow glow-left"></div>
+  <div class="bg-glow glow-right"></div>
+
+  <div id="splash" class="splash">
+    <div class="splash-inner">
+      <div class="splash-mark">AW</div>
+      <div class="splash-name">AMOS WILLIAMS</div>
+      <div class="splash-sub">Private Advisory Office</div>
+      <button id="enterButton" class="splash-btn">Enter</button>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#top">
+        <span class="brand-mark">AW</span>
+        <span>Amos Williams</span>
+      </a>
+
+      <nav class="nav-links">
+        <a data-i18n="nav_advisory" href="#advisory">Advisory</a>
+        <a data-i18n="nav_mandate" href="#mandate">Mandate</a>
+        <a data-i18n="nav_framework" href="#framework">Framework</a>
+        <a data-i18n="nav_infra" href="#infrastructure">Infrastructure</a>
+        <a data-i18n="nav_contact" href="#contact">Contact</a>
+      </nav>
+
+      <div class="lang-switch">
+        <button class="lang-btn" type="button" id="langToggle"><span id="langLabel">English</span> <span>▾</span></button>
+        <div class="lang-menu" id="langMenu">
+          <button data-lang="en">English</button>
+          <button data-lang="zh">中文</button>
+          <button data-lang="es">Español</button>
+          <button data-lang="fr">Français</button>
+          <button data-lang="de">Deutsch</button>
+          <button data-lang="ja">日本語</button>
+          <button data-lang="ko">한국어</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="container">
+    <section class="hero reveal">
+      <div class="hero-left panel dynamic-card">
+        <div class="eyebrow">
+          <span class="eyebrow-line"></span>
+          <span data-i18n="hero_eyebrow">Private Advisory · North America</span>
+        </div>
+
+        <div class="identity">
+          <img class="avatar" src="assets/avatar.png" alt="Amos Williams portrait" />
+          <div>
+            <div class="identity-name">Amos Williams</div>
+            <div class="identity-role" data-i18n="identity_role">Senior Investment Advisor</div>
+          </div>
+        </div>
+
+        <h1 data-i18n="hero_title">Conservative by design. Decisive in execution.</h1>
+
+        <p class="hero-subhead" data-i18n="hero_subhead">A private advisory profile for disciplined capital, selective mandates, and long-horizon decision making.</p>
+
+        <div class="hero-lines">
+          <p data-i18n="hero_l1">I do not chase markets.</p>
+          <p data-i18n="hero_l2">I build structure before taking risk.</p>
+          <p data-i18n="hero_l3">I prefer explainable decisions over impressive noise.</p>
+        </div>
+
+        <div class="tag-row">
+          <span data-i18n="tag_1">Selective mandates</span>
+          <span data-i18n="tag_2">Macro-led positioning</span>
+          <span data-i18n="tag_3">Defined downside</span>
+          <span data-i18n="tag_4">Process transparency</span>
+        </div>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#contact" data-i18n="btn_access">Request access</a>
+          <a class="btn btn-secondary" href="#mandate" data-i18n="btn_mandate">View mandate</a>
+        </div>
+
+        <p class="disclosure" data-i18n="hero_disclosure">Not a registered investment adviser. Advisory services are provided on a consulting and non-discretionary basis. Clients retain full discretion and custody at all times.</p>
+      </div>
+
+      <aside class="hero-right reveal">
+        <div class="portrait-card dynamic-card">
+          <img src="assets/hero.png" alt="Amos Williams" class="portrait" />
+          <div class="portrait-meta">
+            <span data-i18n="portrait_left">Private profile</span>
+            <span>Amos Williams</span>
+          </div>
+        </div>
+
+        <div class="stack-card dynamic-card">
+          <h2 data-i18n="glance_title">At a glance</h2>
+
+          <div class="micro-card dynamic-card-inner">
+            <h3 data-i18n="glance_client">Client type</h3>
+            <p data-i18n="glance_client_p">High-net-worth individuals and families seeking structured guidance, discretion, and long-term alignment.</p>
+          </div>
+
+          <div class="micro-card dynamic-card-inner">
+            <h3 data-i18n="glance_focus">Core focus</h3>
+            <p data-i18n="glance_focus_p">Foreign exchange, precious metals, active risk management, and macro-sensitive portfolio structuring.</p>
+          </div>
+
+          <div class="micro-card dynamic-card-inner">
+            <h3 data-i18n="glance_style">Working style</h3>
+            <p data-i18n="glance_style_p">No hype. No reactive trading. Clear logic, disciplined timing, and accountable communication.</p>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="advisory" class="section reveal">
+      <div class="section-top">
+        <div class="section-label" data-i18n="nav_advisory">Advisory</div>
+        <h2 data-i18n="advisory_title">Built to feel less like a public website and more like a private entrance.</h2>
+      </div>
+      <div class="two-col">
+        <article class="panel dynamic-card">
+          <h3 data-i18n="advisory_h1">Who this is for</h3>
+          <p data-i18n="advisory_p1">This profile is designed for clients who value capital protection, process-led thinking, and long-term stewardship over excitement.</p>
+        </article>
+        <article class="panel dynamic-card">
+          <h3 data-i18n="advisory_h2">What matters here</h3>
+          <p data-i18n="advisory_p2">Discretion, structure, timing, and the ability to stay rational when environments become crowded, emotional, or unclear.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="mandate" class="section reveal">
+      <div class="section-top">
+        <div class="section-label" data-i18n="nav_mandate">Mandate</div>
+        <h2 data-i18n="mandate_title">The mandate is simple: preserve trust, define risk, and move only when the setup deserves capital.</h2>
+      </div>
+      <div class="three-col">
+        <article class="panel dynamic-card">
+          <h3 data-i18n="mandate_h1">Capital preservation</h3>
+          <p data-i18n="mandate_p1">Downside discipline comes before upside ambition. Protection is part of performance.</p>
+        </article>
+        <article class="panel dynamic-card">
+          <h3 data-i18n="mandate_h2">Selective opportunity</h3>
+          <p data-i18n="mandate_p2">Not every move deserves participation. Selectivity is a core filter, not an afterthought.</p>
+        </article>
+        <article class="panel dynamic-card">
+          <h3 data-i18n="mandate_h3">Clear communication</h3>
+          <p data-i18n="mandate_p3">Clients should understand why something is being done, what risk it carries, and what would invalidate it.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="framework" class="section reveal">
+      <div class="section-top">
+        <div class="section-label" data-i18n="nav_framework">Framework</div>
+        <h2 data-i18n="framework_title">Family-office tone. Institutional discipline. Private-client clarity.</h2>
+      </div>
+      <div class="grid-4">
+        <article class="panel dynamic-card"><h3 data-i18n="fw_h1">Macro positioning</h3><p data-i18n="fw_p1">Cross-asset positioning shaped by policy, liquidity, and regime shifts.</p></article>
+        <article class="panel dynamic-card"><h3 data-i18n="fw_h2">Risk architecture</h3><p data-i18n="fw_p2">Defined exposure, controlled drawdown assumptions, and orderly response plans.</p></article>
+        <article class="panel dynamic-card"><h3 data-i18n="fw_h3">Precious metals</h3><p data-i18n="fw_p3">Selective participation in markets where macro drivers and liquidity conditions are clear.</p></article>
+        <article class="panel dynamic-card"><h3 data-i18n="fw_h4">Client reporting</h3><p data-i18n="fw_p4">Quiet, direct, and decision-focused communication rather than theatrical commentary.</p></article>
+      </div>
+    </section>
+
+    <section id="infrastructure" class="section reveal">
+      <div class="section-top">
+        <div class="section-label" data-i18n="nav_infra">Infrastructure</div>
+        <h2 data-i18n="infra_title">Selective platforms. Verified channels. No unnecessary exposure.</h2>
+      </div>
+      <div class="two-col">
+        <article class="panel dynamic-card">
+          <h3 data-i18n="reg_title">Regulatory disclosure</h3>
+          <p data-i18n="reg_p1">Not a registered investment adviser. Advisory services are provided on a consulting and non-discretionary basis. Clients retain full discretion and custody at all times.</p>
+          <p data-i18n="reg_p2">Information on this page is provided for general purposes only and does not constitute an offer, solicitation, or investment advice.</p>
+        </article>
+        <article class="panel dynamic-card">
+          <h3 data-i18n="eco_title">Ecosystem</h3>
+          <p data-i18n="eco_p">Click an icon to visit the official site. Links are provided for reference only and do not constitute endorsement or recommendation.</p>
+          <div class="logos">
+            <a href="https://www.coinbase.com" target="_blank" rel="noreferrer" class="logo-link"><img src="assets/coinbase.png" alt="Coinbase"><span>Coinbase</span></a>
+            <a href="https://crypto.com" target="_blank" rel="noreferrer" class="logo-link"><img src="assets/crypto.png" alt="Crypto.com"><span>Crypto.com</span></a>
+            <a href="https://www.bankofamerica.com" target="_blank" rel="noreferrer" class="logo-link"><img src="assets/boa.png" alt="Bank of America"><span>Bank of America</span></a>
+            <a href="https://www.jpmorganchase.com" target="_blank" rel="noreferrer" class="logo-link"><img src="assets/jpm.png" alt="JPMorgan Chase"><span>JPMorgan Chase</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-top">
+        <div class="section-label" data-i18n="principles_label">Operating Principles</div>
+        <h2 data-i18n="principles_title">Steadiness is not passivity. It is control.</h2>
+      </div>
+      <div class="principles">
+        <div class="principle-item dynamic-card"><span>01</span><div><h3 data-i18n="op_h1">Stay explainable</h3><p data-i18n="op_p1">Every move should remain grounded in logic that can still be defended after volatility arrives.</p></div></div>
+        <div class="principle-item dynamic-card"><span>02</span><div><h3 data-i18n="op_h2">Respect timing</h3><p data-i18n="op_p2">Patience is often more valuable than activity. Timing and structure work together.</p></div></div>
+        <div class="principle-item dynamic-card"><span>03</span><div><h3 data-i18n="op_h3">Protect the relationship</h3><p data-i18n="op_p3">The advisory relationship is built on trust, clarity, and the discipline not to overreach.</p></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="contact-shell">
+        <div>
+          <div class="section-label" data-i18n="nav_contact">Contact</div>
+          <h2 data-i18n="contact_title">For introductions, private inquiries, or mandate discussions.</h2>
+        </div>
+        <div class="contact-card dynamic-card">
+          <p class="contact-label" data-i18n="contact_direct">Direct email</p>
+          <a class="email-button" href="mailto:Amoswilliams1960@outlook.com">Amoswilliams1960@outlook.com</a>
+          <p class="small-note" data-i18n="contact_note">Messages are confidential. This email does not create an advisory relationship.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer-disclaimer" data-i18n="footer_disclaimer">This website is for reference only and does not constitute investment advice, an offer, or a solicitation. Unless otherwise expressly agreed in writing, all strategies are general in nature and are not tailored to any individual. Past performance does not guarantee future results. All investments involve risk, including the possible loss of principal.</p>
+      <span data-i18n="footer_copy">© 2026 Since 2000 Amoswilliams</span>
+    </footer>
+  </main>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) entry.target.classList.add("visible");
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+    document.querySelectorAll('.dynamic-card, .dynamic-card-inner').forEach((card) => {
+      card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        card.style.setProperty('--mx', x + 'px');
+        card.style.setProperty('--my', y + 'px');
+      });
+    });
+
+    const splash = document.getElementById('splash');
+    const enterButton = document.getElementById('enterButton');
+    const closeSplash = () => splash.classList.add('hidden');
+    enterButton.addEventListener('click', closeSplash);
+    setTimeout(() => splash.classList.add('ready'), 200);
+    setTimeout(closeSplash, 2200);
+
+    const translations = {
+      en: {
+        lang:"English", nav_advisory:"Advisory", nav_mandate:"Mandate", nav_framework:"Framework", nav_infra:"Infrastructure", nav_contact:"Contact",
+        hero_eyebrow:"Private Advisory · North America", identity_role:"Senior Investment Advisor",
+        hero_title:"Conservative by design. Decisive in execution.",
+        hero_subhead:"A private advisory profile for disciplined capital, selective mandates, and long-horizon decision making.",
+        hero_l1:"I do not chase markets.", hero_l2:"I build structure before taking risk.", hero_l3:"I prefer explainable decisions over impressive noise.",
+        tag_1:"Selective mandates", tag_2:"Macro-led positioning", tag_3:"Defined downside", tag_4:"Process transparency",
+        btn_access:"Request access", btn_mandate:"View mandate", hero_disclosure:"Not a registered investment adviser. Advisory services are provided on a consulting and non-discretionary basis. Clients retain full discretion and custody at all times.",
+        portrait_left:"Private profile", glance_title:"At a glance", glance_client:"Client type", glance_client_p:"High-net-worth individuals and families seeking structured guidance, discretion, and long-term alignment.",
+        glance_focus:"Core focus", glance_focus_p:"Foreign exchange, precious metals, active risk management, and macro-sensitive portfolio structuring.",
+        glance_style:"Working style", glance_style_p:"No hype. No reactive trading. Clear logic, disciplined timing, and accountable communication.",
+        advisory_title:"Built to feel less like a public website and more like a private entrance.", advisory_h1:"Who this is for", advisory_p1:"This profile is designed for clients who value capital protection, process-led thinking, and long-term stewardship over excitement.", advisory_h2:"What matters here", advisory_p2:"Discretion, structure, timing, and the ability to stay rational when environments become crowded, emotional, or unclear.",
+        mandate_title:"The mandate is simple: preserve trust, define risk, and move only when the setup deserves capital.", mandate_h1:"Capital preservation", mandate_p1:"Downside discipline comes before upside ambition. Protection is part of performance.", mandate_h2:"Selective opportunity", mandate_p2:"Not every move deserves participation. Selectivity is a core filter, not an afterthought.", mandate_h3:"Clear communication", mandate_p3:"Clients should understand why something is being done, what risk it carries, and what would invalidate it.",
+        framework_title:"Family-office tone. Institutional discipline. Private-client clarity.", fw_h1:"Macro positioning", fw_p1:"Cross-asset positioning shaped by policy, liquidity, and regime shifts.", fw_h2:"Risk architecture", fw_p2:"Defined exposure, controlled drawdown assumptions, and orderly response plans.", fw_h3:"Precious metals", fw_p3:"Selective participation in markets where macro drivers and liquidity conditions are clear.", fw_h4:"Client reporting", fw_p4:"Quiet, direct, and decision-focused communication rather than theatrical commentary.",
+        infra_title:"Selective platforms. Verified channels. No unnecessary exposure.", reg_title:"Regulatory disclosure", reg_p1:"Not a registered investment adviser. Advisory services are provided on a consulting and non-discretionary basis. Clients retain full discretion and custody at all times.", reg_p2:"Information on this page is provided for general purposes only and does not constitute an offer, solicitation, or investment advice.", eco_title:"Ecosystem", eco_p:"Click an icon to visit the official site. Links are provided for reference only and do not constitute endorsement or recommendation.",
+        principles_label:"Operating Principles", principles_title:"Steadiness is not passivity. It is control.", op_h1:"Stay explainable", op_p1:"Every move should remain grounded in logic that can still be defended after volatility arrives.", op_h2:"Respect timing", op_p2:"Patience is often more valuable than activity. Timing and structure work together.", op_h3:"Protect the relationship", op_p3:"The advisory relationship is built on trust, clarity, and the discipline not to overreach.",
+        contact_title:"For introductions, private inquiries, or mandate discussions.", contact_direct:"Direct email", contact_note:"Messages are confidential. This email does not create an advisory relationship.",
+        footer_disclaimer:"This website is for reference only and does not constitute investment advice, an offer, or a solicitation. Unless otherwise expressly agreed in writing, all strategies are general in nature and are not tailored to any individual. Past performance does not guarantee future results. All investments involve risk, including the possible loss of principal.",
+        footer_copy:"© 2026 Since 2000 Amoswilliams"
+      },
+      zh: {
+        lang:"中文", nav_advisory:"顾问服务", nav_mandate:"服务授权", nav_framework:"框架", nav_infra:"基础设施", nav_contact:"接触",
+        hero_eyebrow:"私人顾问 · 北美", identity_role:"高级投资顾问", hero_title:"设计上保守，执行上果断。", hero_subhead:"面向纪律性资本、选择性授权与长期决策的私人顾问简介。", hero_l1:"我不追逐市场噪音。", hero_l2:"我先建立结构，再承担风险。", hero_l3:"我更偏好可解释的决策，而不是华而不实的喧哗。",
+        tag_1:"选择性授权", tag_2:"宏观主导布局", tag_3:"明确下行边界", tag_4:"流程透明",
+        btn_access:"申请接入", btn_mandate:"查看服务授权", hero_disclosure:"本公司并非注册投资顾问。咨询服务仅以顾问与非全权委托方式提供。客户始终保留完全决策权和托管权。",
+        portrait_left:"私人档案", glance_title:"概览", glance_client:"客户类型", glance_client_p:"寻求结构化指导、谨慎隐私与长期一致性的高净值个人及家庭。", glance_focus:"核心重点", glance_focus_p:"外汇、贵金属、主动风险管理以及宏观敏感型组合结构。", glance_style:"工作风格", glance_style_p:"不炒作，不追涨杀跌。以清晰逻辑、纪律时点和可追责沟通为核心。",
+        advisory_title:"它更像一个私人入口，而不是一个公开网站。", advisory_h1:"适合谁", advisory_p1:"此简介面向重视资本保护、流程驱动思维以及长期管理责任的客户，而非追求短期刺激的人。", advisory_h2:"这里真正重要的", advisory_p2:"隐私、结构、时点，以及在环境嘈杂、情绪化或不明确时保持理性的能力。",
+        mandate_title:"服务授权很简单：守住信任，定义风险，只在真正值得动用资本时采取行动。", mandate_h1:"资本保护", mandate_p1:"下行纪律先于上行野心。保护本身就是绩效的一部分。", mandate_h2:"选择性机会", mandate_p2:"不是每一次波动都值得参与。选择性是核心过滤器，而不是事后补充。", mandate_h3:"清晰沟通", mandate_p3:"客户应当理解为什么要这样做、承担何种风险，以及什么条件会令判断失效。",
+        framework_title:"家族办公室的语气，机构化的纪律，私人客户可理解的清晰度。", fw_h1:"宏观布局", fw_p1:"由政策、流动性与制度变化塑造的跨资产布局。", fw_h2:"风险架构", fw_p2:"明确定义敞口、回撤假设与有序应对方案。", fw_h3:"贵金属", fw_p3:"在宏观驱动和流动性条件清晰时进行选择性参与。", fw_h4:"客户报告", fw_p4:"安静、直接、以决策为核心的沟通，而非戏剧化评论。",
+        infra_title:"选择性平台。验证过的渠道。不做不必要的曝光。", reg_title:"监管披露", reg_p1:"本公司并非注册投资顾问。咨询服务仅以顾问与非全权委托方式提供。客户始终保留完全决策权和托管权。", reg_p2:"本页面信息仅供一般参考，不构成要约、招揽或投资建议。", eco_title:"生态系统", eco_p:"点击图标访问官方网站。所有链接仅供参考，不构成背书或推荐。",
+        principles_label:"运营原则", principles_title:"稳定不是被动，而是控制。", op_h1:"保持可解释", op_p1:"每一次行动都应建立在即使波动来临后仍然可以被捍卫的逻辑之上。", op_h2:"尊重时点", op_p2:"耐心往往比频繁动作更有价值。时点与结构必须共同配合。", op_h3:"保护关系", op_p3:"顾问关系建立在信任、清晰与不过度扩张的纪律之上。",
+        contact_title:"用于引荐、私人咨询或服务授权讨论。", contact_direct:"直接电子邮件", contact_note:"邮件内容保密。本邮件不构成咨询关系。",
+        footer_disclaimer:"本网站仅供参考，不构成投资建议、要约或招揽。除非另有书面明确约定，所有策略均为一般性策略，不针对任何个人进行定制。过往业绩并不代表未来表现。所有投资均存在风险，包括可能损失本金。", footer_copy:"© 2026 自 2000 年起 Amoswilliams"
+      },
+      es: {
+        lang:"Español", nav_advisory:"Asesoría", nav_mandate:"Mandato", nav_framework:"Marco", nav_infra:"Infraestructura", nav_contact:"Contacto",
+        hero_eyebrow:"Asesoría privada · Norteamérica", identity_role:"Asesor Senior de Inversiones", hero_title:"Conservador por diseño. Decisivo en la ejecución.", hero_subhead:"Un perfil privado de asesoría para capital disciplinado, mandatos selectivos y decisiones de largo horizonte.", hero_l1:"No persigo al mercado.", hero_l2:"Construyo estructura antes de asumir riesgo.", hero_l3:"Prefiero decisiones explicables al ruido que impresiona.",
+        tag_1:"Mandatos selectivos", tag_2:"Posicionamiento macro", tag_3:"Límite claro de caída", tag_4:"Transparencia del proceso",
+        btn_access:"Solicitar acceso", btn_mandate:"Ver mandato", hero_disclosure:"No soy un asesor de inversiones registrado. Los servicios se prestan de forma consultiva y no discrecional. Los clientes conservan en todo momento la decisión final y la custodia.",
+        portrait_left:"Perfil privado", glance_title:"Resumen", glance_client:"Tipo de cliente", glance_client_p:"Personas y familias de alto patrimonio que buscan orientación estructurada, discreción y alineación a largo plazo.", glance_focus:"Enfoque central", glance_focus_p:"Divisas, metales preciosos, gestión activa del riesgo y estructuración de carteras sensibles al ciclo macro.", glance_style:"Estilo de trabajo", glance_style_p:"Sin exageración. Sin operativa reactiva. Lógica clara, timing disciplinado y comunicación responsable.",
+        advisory_title:"Diseñado para sentirse menos como un sitio público y más como una entrada privada.", advisory_h1:"Para quién es", advisory_p1:"Este perfil está pensado para clientes que valoran la protección del capital, el pensamiento guiado por procesos y la administración de largo plazo por encima de la emoción.", advisory_h2:"Lo que importa aquí", advisory_p2:"La discreción, la estructura, el momento de actuar y la capacidad de mantenerse racional cuando el entorno se vuelve ruidoso o incierto.",
+        mandate_title:"El mandato es simple: preservar la confianza, definir el riesgo y actuar solo cuando la oportunidad realmente merece capital.", mandate_h1:"Preservación del capital", mandate_p1:"La disciplina de la caída va antes que la ambición alcista. La protección también forma parte del resultado.", mandate_h2:"Oportunidad selectiva", mandate_p2:"No todo movimiento merece participación. La selectividad es un filtro central, no algo secundario.", mandate_h3:"Comunicación clara", mandate_p3:"El cliente debe entender por qué se hace algo, qué riesgo implica y qué invalidaría la tesis.",
+        framework_title:"Tono de family office. Disciplina institucional. Claridad para el cliente privado.", fw_h1:"Posicionamiento macro", fw_p1:"Asignación entre activos definida por política, liquidez y cambios de régimen.", fw_h2:"Arquitectura de riesgo", fw_p2:"Exposición definida, supuestos controlados de caída y planes ordenados de respuesta.", fw_h3:"Metales preciosos", fw_p3:"Participación selectiva cuando los impulsores macro y las condiciones de liquidez son claros.", fw_h4:"Reportes al cliente", fw_p4:"Comunicación sobria, directa y centrada en decisiones, no en comentarios teatrales.",
+        infra_title:"Plataformas selectivas. Canales verificados. Sin exposición innecesaria.", reg_title:"Divulgación regulatoria", reg_p1:"No soy un asesor de inversiones registrado. Los servicios se prestan de forma consultiva y no discrecional. Los clientes conservan en todo momento la decisión final y la custodia.", reg_p2:"La información de esta página es solo de carácter general y no constituye oferta, solicitud ni asesoría de inversión.", eco_title:"Ecosistema", eco_p:"Haga clic en un icono para visitar el sitio oficial. Los enlaces se proporcionan solo como referencia y no constituyen recomendación ni respaldo.",
+        principles_label:"Principios operativos", principles_title:"La estabilidad no es pasividad. Es control.", op_h1:"Mantener lo explicable", op_p1:"Cada movimiento debe apoyarse en una lógica que siga siendo defendible incluso después de la volatilidad.", op_h2:"Respetar el timing", op_p2:"La paciencia suele valer más que la actividad. El timing y la estructura trabajan juntos.", op_h3:"Proteger la relación", op_p3:"La relación de asesoría se construye con confianza, claridad y disciplina para no extralimitarse.",
+        contact_title:"Para presentaciones, consultas privadas o conversaciones sobre mandato.", contact_direct:"Correo directo", contact_note:"Los mensajes son confidenciales. Este correo no crea una relación de asesoría.",
+        footer_disclaimer:"Este sitio web es solo de referencia y no constituye asesoría de inversión, oferta ni solicitud. Salvo acuerdo expreso por escrito, todas las estrategias son de carácter general y no están diseñadas para ninguna persona en particular. Los rendimientos pasados no garantizan resultados futuros. Toda inversión implica riesgos, incluida la posible pérdida del capital.", footer_copy:"© 2026 Desde 2000 Amoswilliams"
+      },
+      fr: {
+        lang:"Français", nav_advisory:"Conseil", nav_mandate:"Mandat", nav_framework:"Cadre", nav_infra:"Infrastructure", nav_contact:"Contact",
+        hero_eyebrow:"Conseil privé · Amérique du Nord", identity_role:"Conseiller principal en investissement", hero_title:"Conservateur par conception. Décisif dans l'exécution.", hero_subhead:"Un profil de conseil privé pour un capital discipliné, des mandats sélectifs et une prise de décision de long terme.", hero_l1:"Je ne poursuis pas les marchés.", hero_l2:"Je construis une structure avant de prendre du risque.", hero_l3:"Je préfère des décisions explicables au bruit spectaculaire.",
+        tag_1:"Mandats sélectifs", tag_2:"Positionnement macro", tag_3:"Risque baissier défini", tag_4:"Transparence du processus",
+        btn_access:"Demander l'accès", btn_mandate:"Voir le mandat", hero_disclosure:"Je ne suis pas un conseiller en investissement enregistré. Les services sont fournis à titre consultatif et non discrétionnaire. Les clients conservent à tout moment la décision finale et la garde des actifs.",
+        portrait_left:"Profil privé", glance_title:"En bref", glance_client:"Type de client", glance_client_p:"Particuliers et familles fortunés recherchant une orientation structurée, de la discrétion et un alignement durable.", glance_focus:"Focus principal", glance_focus_p:"Devises, métaux précieux, gestion active du risque et structuration de portefeuille sensible au contexte macro.", glance_style:"Style de travail", glance_style_p:"Sans battage. Sans réaction impulsive. Une logique claire, un timing discipliné et une communication responsable.",
+        advisory_title:"Conçu pour ressembler moins à un site public qu'à une entrée privée.", advisory_h1:"À qui cela s'adresse", advisory_p1:"Ce profil est destiné aux clients qui privilégient la protection du capital, une pensée guidée par les processus et une gestion de long terme plutôt que l'excitation.", advisory_h2:"Ce qui compte ici", advisory_p2:"La discrétion, la structure, le timing et la capacité à rester rationnel lorsque l'environnement devient chargé ou émotionnel.",
+        mandate_title:"Le mandat est simple : préserver la confiance, définir le risque et n'agir que lorsque la configuration mérite réellement du capital.", mandate_h1:"Préservation du capital", mandate_p1:"La discipline baissière vient avant l'ambition haussière. La protection fait partie de la performance.", mandate_h2:"Opportunité sélective", mandate_p2:"Chaque mouvement ne mérite pas d'être suivi. La sélectivité est un filtre central, pas un ajout secondaire.", mandate_h3:"Communication claire", mandate_p3:"Le client doit comprendre pourquoi une décision est prise, quel risque elle comporte et ce qui invaliderait la thèse.",
+        framework_title:"Ton family office. Discipline institutionnelle. Clarté pour le client privé.", fw_h1:"Positionnement macro", fw_p1:"Allocation multi-actifs façonnée par la politique, la liquidité et les changements de régime.", fw_h2:"Architecture du risque", fw_p2:"Exposition définie, hypothèses de baisse contrôlées et plans de réponse ordonnés.", fw_h3:"Métaux précieux", fw_p3:"Participation sélective lorsque les moteurs macro et les conditions de liquidité sont clairs.", fw_h4:"Reporting client", fw_p4:"Une communication sobre, directe et orientée décision plutôt qu'un commentaire théâtral.",
+        infra_title:"Plateformes sélectives. Canaux vérifiés. Aucune exposition inutile.", reg_title:"Divulgation réglementaire", reg_p1:"Je ne suis pas un conseiller en investissement enregistré. Les services sont fournis à titre consultatif et non discrétionnaire. Les clients conservent à tout moment la décision finale et la garde des actifs.", reg_p2:"Les informations figurant sur cette page sont fournies à titre général et ne constituent ni une offre, ni une sollicitation, ni un conseil en investissement.", eco_title:"Écosystème", eco_p:"Cliquez sur une icône pour visiter le site officiel. Les liens sont fournis à titre de référence uniquement et ne constituent ni recommandation ni approbation.",
+        principles_label:"Principes d'exploitation", principles_title:"La stabilité n'est pas de la passivité. C'est du contrôle.", op_h1:"Rester explicable", op_p1:"Chaque action doit reposer sur une logique qui reste défendable même après l'arrivée de la volatilité.", op_h2:"Respecter le timing", op_p2:"La patience a souvent plus de valeur que l'activité. Le timing et la structure fonctionnent ensemble.", op_h3:"Protéger la relation", op_p3:"La relation de conseil repose sur la confiance, la clarté et la discipline de ne pas en faire trop.",
+        contact_title:"Pour des introductions, des demandes privées ou des discussions de mandat.", contact_direct:"Email direct", contact_note:"Les messages sont confidentiels. Cet email ne crée pas une relation de conseil.",
+        footer_disclaimer:"Ce site est fourni à titre informatif uniquement et ne constitue ni un conseil en investissement, ni une offre, ni une sollicitation. Sauf accord écrit explicite, toutes les stratégies sont de nature générale et ne sont pas adaptées à une personne en particulier. Les performances passées ne garantissent pas les résultats futurs. Tout investissement comporte des risques, y compris la perte possible du capital.", footer_copy:"© 2026 Depuis 2000 Amoswilliams"
+      },
+      de: {
+        lang:"Deutsch", nav_advisory:"Beratung", nav_mandate:"Mandat", nav_framework:"Rahmen", nav_infra:"Infrastruktur", nav_contact:"Kontakt",
+        hero_eyebrow:"Private Beratung · Nordamerika", identity_role:"Senior Investmentberater", hero_title:"Konservativ im Design. Entschlossen in der Umsetzung.", hero_subhead:"Ein privates Beratungsprofil für diszipliniertes Kapital, selektive Mandate und Entscheidungen mit langem Horizont.", hero_l1:"Ich jage keinen Märkten hinterher.", hero_l2:"Ich schaffe zuerst Struktur, bevor ich Risiko eingehe.", hero_l3:"Ich bevorzuge nachvollziehbare Entscheidungen statt beeindruckendem Lärm.",
+        tag_1:"Selektive Mandate", tag_2:"Makro-geführte Positionierung", tag_3:"Definierte Abwärtsgrenze", tag_4:"Prozesstransparenz",
+        btn_access:"Zugang anfragen", btn_mandate:"Mandat ansehen", hero_disclosure:"Ich bin kein registrierter Anlageberater. Die Leistungen werden beratend und nicht-diskretionär erbracht. Die Kunden behalten jederzeit die volle Entscheidungshoheit und Verwahrung.",
+        portrait_left:"Privates Profil", glance_title:"Auf einen Blick", glance_client:"Kundentyp", glance_client_p:"Vermögende Privatpersonen und Familien, die strukturierte Orientierung, Diskretion und langfristige Ausrichtung suchen.", glance_focus:"Kernfokus", glance_focus_p:"Devisen, Edelmetalle, aktives Risikomanagement und makrosensible Portfoliostrukturierung.", glance_style:"Arbeitsweise", glance_style_p:"Kein Hype. Kein reaktives Trading. Klare Logik, diszipliniertes Timing und verantwortliche Kommunikation.",
+        advisory_title:"So gestaltet, dass es sich weniger wie eine öffentliche Website und mehr wie ein privater Zugang anfühlt.", advisory_h1:"Für wen das gedacht ist", advisory_p1:"Dieses Profil richtet sich an Kunden, die Kapitalschutz, prozessgeleitetes Denken und langfristige Verantwortung höher gewichten als kurzfristige Aufregung.", advisory_h2:"Was hier zählt", advisory_p2:"Diskretion, Struktur, Timing und die Fähigkeit, rational zu bleiben, wenn Umfelder laut, emotional oder unklar werden.",
+        mandate_title:"Das Mandat ist einfach: Vertrauen bewahren, Risiko definieren und nur dann handeln, wenn das Setup wirklich Kapital verdient.", mandate_h1:"Kapitalerhalt", mandate_p1:"Abwärtsdisziplin kommt vor Aufwärtsambition. Schutz ist Teil der Performance.", mandate_h2:"Selektive Chancen", mandate_p2:"Nicht jede Bewegung verdient Beteiligung. Selektivität ist ein Kernfilter und kein Nachgedanke.", mandate_h3:"Klare Kommunikation", mandate_p3:"Der Kunde sollte verstehen, warum etwas getan wird, welches Risiko es trägt und was die Annahme ungültig machen würde.",
+        framework_title:"Family-Office-Ton. Institutionelle Disziplin. Klarheit für Privatkunden.", fw_h1:"Makro-Positionierung", fw_p1:"Cross-Asset-Positionierung, geprägt von Politik, Liquidität und Regimewechseln.", fw_h2:"Risikostruktur", fw_p2:"Definierte Exposures, kontrollierte Drawdown-Annahmen und geordnete Reaktionspläne.", fw_h3:"Edelmetalle", fw_p3:"Selektive Beteiligung, wenn makroökonomische Treiber und Liquiditätsbedingungen klar sind.", fw_h4:"Kundenreporting", fw_p4:"Ruhige, direkte und entscheidungsorientierte Kommunikation statt theatralischer Kommentare.",
+        infra_title:"Selektive Plattformen. Verifizierte Kanäle. Keine unnötige Exponierung.", reg_title:"Regulatorische Offenlegung", reg_p1:"Ich bin kein registrierter Anlageberater. Die Leistungen werden beratend und nicht-diskretionär erbracht. Die Kunden behalten jederzeit die volle Entscheidungshoheit und Verwahrung.", reg_p2:"Die Informationen auf dieser Seite dienen nur allgemeinen Zwecken und stellen weder ein Angebot noch eine Aufforderung noch eine Anlageberatung dar.", eco_title:"Ökosystem", eco_p:"Klicken Sie auf ein Symbol, um die offizielle Website zu besuchen. Die Links dienen nur als Referenz und stellen keine Empfehlung oder Billigung dar.",
+        principles_label:"Arbeitsprinzipien", principles_title:"Beständigkeit ist keine Passivität. Sie ist Kontrolle.", op_h1:"Nachvollziehbar bleiben", op_p1:"Jede Maßnahme sollte auf einer Logik beruhen, die auch nach eintretender Volatilität noch verteidigt werden kann.", op_h2:"Timing respektieren", op_p2:"Geduld ist oft wertvoller als Aktivität. Timing und Struktur wirken zusammen.", op_h3:"Die Beziehung schützen", op_p3:"Die Beratungsbeziehung basiert auf Vertrauen, Klarheit und der Disziplin, nicht zu weit zu gehen.",
+        contact_title:"Für Einführungen, private Anfragen oder Gespräche über ein Mandat.", contact_direct:"Direkte E-Mail", contact_note:"Nachrichten sind vertraulich. Diese E-Mail begründet kein Beratungsverhältnis.",
+        footer_disclaimer:"Diese Website dient nur zu Referenzzwecken und stellt weder Anlageberatung noch ein Angebot oder eine Aufforderung dar. Sofern nicht ausdrücklich schriftlich anders vereinbart, sind alle Strategien allgemeiner Natur und nicht auf einzelne Personen zugeschnitten. Vergangene Ergebnisse garantieren keine zukünftigen Resultate. Jede Anlage ist mit Risiken verbunden, einschließlich des möglichen Verlusts des eingesetzten Kapitals.", footer_copy:"© 2026 Seit 2000 Amoswilliams"
+      },
+      ja: {
+        lang:"日本語", nav_advisory:"アドバイザリー", nav_mandate:"マンデート", nav_framework:"フレームワーク", nav_infra:"インフラ", nav_contact:"連絡",
+        hero_eyebrow:"プライベート・アドバイザリー · 北米", identity_role:"シニア投資アドバイザー", hero_title:"設計は保守的に。実行は断固として。", hero_subhead:"規律ある資本、選択的マンデート、長期視点の意思決定のためのプライベート・アドバイザリープロフィール。", hero_l1:"私は市場を追いかけません。", hero_l2:"リスクを取る前に、まず構造をつくります。", hero_l3:"目立つ雑音よりも、説明可能な意思決定を重視します。",
+        tag_1:"選択的マンデート", tag_2:"マクロ主導のポジショニング", tag_3:"明確な下方管理", tag_4:"プロセスの透明性",
+        btn_access:"アクセスを申請", btn_mandate:"マンデートを見る", hero_disclosure:"私は登録投資顧問ではありません。サービスは助言型かつ非一任型で提供されます。最終的な判断と資産保管は常にクライアントに帰属します。",
+        portrait_left:"プライベートプロフィール", glance_title:"概要", glance_client:"対象顧客", glance_client_p:"構造的な助言、慎重な配慮、長期的な整合性を求める富裕層個人およびファミリー。", glance_focus:"主要領域", glance_focus_p:"外国為替、貴金属、アクティブ・リスク管理、そしてマクロ環境に敏感なポートフォリオ構築。", glance_style:"業務姿勢", glance_style_p:"誇張なし。反応的な売買なし。明確な論理、規律あるタイミング、責任あるコミュニケーション。",
+        advisory_title:"公開サイトというより、私的な入口として感じられるように設計されています。", advisory_h1:"対象となる方", advisory_p1:"このプロフィールは、短期的な刺激よりも、資本保全、プロセス主導の思考、長期的な管理責任を重視する方のために設計されています。", advisory_h2:"ここで大切なこと", advisory_p2:"慎重さ、構造、タイミング、そして環境が騒がしく感情的あるいは不明瞭になっても理性を保つ力です。",
+        mandate_title:"マンデートは明快です。信頼を守り、リスクを定義し、本当に資本を投じる価値がある局面でのみ動くこと。", mandate_h1:"資本保全", mandate_p1:"上昇への期待より先に、下方規律が存在します。保護そのものが成果の一部です。", mandate_h2:"選択的な機会", mandate_p2:"すべての値動きに参加する必要はありません。選択性は補足ではなく中心的なフィルターです。", mandate_h3:"明確なコミュニケーション", mandate_p3:"なぜそうするのか、どのようなリスクがあるのか、何が前提を崩すのかを顧客が理解できるべきです。",
+        framework_title:"ファミリーオフィスのトーン。機関投資家の規律。プライベートクライアントのための明瞭さ。", fw_h1:"マクロ・ポジショニング", fw_p1:"政策、流動性、レジーム変化によって形づくられるクロスアセット配置。", fw_h2:"リスク設計", fw_p2:"明確なエクスポージャー、管理されたドローダウン前提、秩序ある対応計画。", fw_h3:"貴金属", fw_p3:"マクロ要因と流動性条件が明確なときにのみ、選択的に参加します。", fw_h4:"顧客レポーティング", fw_p4:"演出的な論評ではなく、静かで直接的かつ意思決定に焦点を当てたコミュニケーション。",
+        infra_title:"選ばれたプラットフォーム。検証済みチャネル。不必要な露出はしない。", reg_title:"規制開示", reg_p1:"私は登録投資顧問ではありません。サービスは助言型かつ非一任型で提供されます。最終的な判断と資産保管は常にクライアントに帰属します。", reg_p2:"本ページの情報は一般的な参考目的のみであり、投資助言、勧誘、または申込みを構成するものではありません。", eco_title:"エコシステム", eco_p:"公式サイトへ移動するにはアイコンをクリックしてください。リンクは参考目的のみであり、推奨や承認を意味しません。",
+        principles_label:"運用原則", principles_title:"安定とは受け身ではありません。統制そのものです。", op_h1:"説明可能であること", op_p1:"すべての行動は、ボラティリティ到来後でも説明し守れる論理に基づくべきです。", op_h2:"タイミングを尊重する", op_p2:"多くの場合、活動よりも忍耐の方が価値があります。タイミングと構造は一体です。", op_h3:"関係を守る", op_p3:"アドバイザリー関係は、信頼、明確さ、そして行き過ぎない規律の上に築かれます。",
+        contact_title:"紹介、個別の問い合わせ、またはマンデートに関するご相談のために。", contact_direct:"直接メール", contact_note:"メッセージは機密として扱われます。このメールは助言関係を成立させるものではありません。",
+        footer_disclaimer:"本サイトは参考情報の提供のみを目的としており、投資助言、勧誘、または申込みを構成するものではありません。書面による明示的な合意がない限り、すべての戦略は一般的な性質のものであり、特定の個人向けに調整されたものではありません。過去の実績は将来の成果を保証するものではありません。すべての投資には、元本損失の可能性を含むリスクがあります。", footer_copy:"© 2026 2000年より Amoswilliams"
+      },
+      ko: {
+        lang:"한국어", nav_advisory:"자문", nav_mandate:"위임 범위", nav_framework:"프레임워크", nav_infra:"인프라", nav_contact:"문의",
+        hero_eyebrow:"프라이빗 자문 · 북미", identity_role:"수석 투자 자문가", hero_title:"설계는 보수적으로. 실행은 단호하게.", hero_subhead:"규율 있는 자본, 선택적 위임 범위, 장기적 의사결정을 위한 프라이빗 자문 프로필입니다.", hero_l1:"나는 시장을 쫓지 않습니다.", hero_l2:"리스크를 감수하기 전에 먼저 구조를 만듭니다.", hero_l3:"인상적인 소음보다 설명 가능한 결정을 선호합니다.",
+        tag_1:"선택적 위임", tag_2:"매크로 중심 포지셔닝", tag_3:"명확한 하방 관리", tag_4:"프로세스 투명성",
+        btn_access:"접근 요청", btn_mandate:"위임 범위 보기", hero_disclosure:"저는 등록 투자 자문인이 아닙니다. 자문 서비스는 컨설팅 및 비일임 방식으로 제공됩니다. 최종 결정과 자산 보관은 항상 고객에게 있습니다.",
+        portrait_left:"프라이빗 프로필", glance_title:"한눈에 보기", glance_client:"고객 유형", glance_client_p:"구조화된 자문, 신중한 배려, 장기적 정합성을 원하는 고액 자산가 개인 및 가족.", glance_focus:"핵심 영역", glance_focus_p:"외환, 귀금속, 능동적 리스크 관리, 그리고 매크로 환경에 민감한 포트폴리오 구조화.", glance_style:"업무 방식", glance_style_p:"과장 없음. 반응적 매매 없음. 명확한 논리, 규율 있는 타이밍, 책임 있는 커뮤니케이션.",
+        advisory_title:"공개 웹사이트라기보다 사적인 입구처럼 느껴지도록 설계되었습니다.", advisory_h1:"어떤 분을 위한 곳인가", advisory_p1:"이 프로필은 단기적 흥분보다 자본 보호, 프로세스 중심 사고, 장기적 관리 책임을 중시하는 고객을 위해 설계되었습니다.", advisory_h2:"여기서 중요한 것", advisory_p2:"신중함, 구조, 타이밍, 그리고 환경이 시끄럽고 감정적이거나 불명확해져도 이성을 유지하는 능력입니다.",
+        mandate_title:"위임 범위는 단순합니다. 신뢰를 지키고, 리스크를 정의하며, 정말 자본을 투입할 가치가 있을 때만 움직이는 것입니다.", mandate_h1:"자본 보전", mandate_p1:"상승 기대보다 먼저 하방 규율이 있습니다. 보호 자체가 성과의 일부입니다.", mandate_h2:"선택적 기회", mandate_p2:"모든 움직임에 참여할 필요는 없습니다. 선택성은 부가 요소가 아니라 핵심 필터입니다.", mandate_h3:"명확한 소통", mandate_p3:"고객은 왜 이렇게 하는지, 어떤 리스크가 있는지, 무엇이 가정을 무효화하는지 이해할 수 있어야 합니다.",
+        framework_title:"패밀리오피스의 톤. 기관의 규율. 프라이빗 고객을 위한 명확성.", fw_h1:"매크로 포지셔닝", fw_p1:"정책, 유동성, 체제 변화에 의해 형성되는 크로스에셋 배분.", fw_h2:"리스크 구조", fw_p2:"명확한 익스포저, 통제된 손실 가정, 질서 있는 대응 계획.", fw_h3:"귀금속", fw_p3:"매크로 동인과 유동성 조건이 분명할 때만 선택적으로 참여합니다.", fw_h4:"고객 보고", fw_p4:"과장된 논평이 아닌, 조용하고 직접적이며 의사결정 중심의 커뮤니케이션.",
+        infra_title:"선별된 플랫폼. 검증된 채널. 불필요한 노출은 없습니다.", reg_title:"규제 공시", reg_p1:"저는 등록 투자 자문인이 아닙니다. 자문 서비스는 컨설팅 및 비일임 방식으로 제공됩니다. 최종 결정과 자산 보관은 항상 고객에게 있습니다.", reg_p2:"이 페이지의 정보는 일반적인 참고 목적일 뿐이며 투자 자문, 제안 또는 권유를 구성하지 않습니다.", eco_title:"생태계", eco_p:"공식 사이트를 방문하려면 아이콘을 클릭하십시오. 링크는 참고용일 뿐이며 추천이나 보증을 의미하지 않습니다.",
+        principles_label:"운영 원칙", principles_title:"안정은 수동성이 아니라 통제입니다.", op_h1:"설명 가능성 유지", op_p1:"모든 움직임은 변동성이 온 뒤에도 방어할 수 있는 논리에 기반해야 합니다.", op_h2:"타이밍 존중", op_p2:"대부분의 경우 활동보다 인내가 더 가치 있습니다. 타이밍과 구조는 함께 작동합니다.", op_h3:"관계 보호", op_p3:"자문 관계는 신뢰, 명확성, 그리고 과도하게 나아가지 않는 절제 위에 세워집니다.",
+        contact_title:"소개, 비공개 문의 또는 위임 범위 논의를 위해.", contact_direct:"직접 이메일", contact_note:"메시지는 기밀로 처리됩니다. 이 이메일은 자문 관계를 성립시키지 않습니다.",
+        footer_disclaimer:"본 웹사이트는 참고용으로만 제공되며 투자 자문, 제안 또는 권유를 구성하지 않습니다. 서면으로 명시적으로 달리 합의되지 않는 한, 모든 전략은 일반적인 성격을 가지며 특정 개인에 맞춤화된 것이 아닙니다. 과거 성과는 미래 결과를 보장하지 않습니다. 모든 투자는 원금 손실 가능성을 포함한 위험을 수반합니다.", footer_copy:"© 2026 2000년부터 Amoswilliams"
+      }
+    };
+
+    const label = document.getElementById('langLabel');
+    const menu = document.getElementById('langMenu');
+    const toggle = document.getElementById('langToggle');
+    toggle.addEventListener('click', () => menu.classList.toggle('show'));
+    document.addEventListener('click', (e) => {
+      if (!document.querySelector('.lang-switch').contains(e.target)) menu.classList.remove('show');
+    });
+
+    function applyLang(lang) {
+      const dict = translations[lang] || translations.en;
+      label.textContent = dict.lang;
+      document.documentElement.lang = lang;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        if (dict[key]) el.textContent = dict[key];
+      });
+      localStorage.setItem('amos-ultimate-lang', lang);
+      menu.classList.remove('show');
+    }
+
+    document.querySelectorAll('#langMenu button').forEach(btn => btn.addEventListener('click', () => applyLang(btn.dataset.lang)));
+    applyLang(localStorage.getItem('amos-ultimate-lang') || 'en');
+  </script>
+</body>
+</html>
